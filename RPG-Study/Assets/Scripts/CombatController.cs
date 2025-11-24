@@ -54,7 +54,7 @@ public class CombatController : MonoBehaviour
 
     private void UpdateCanvasPlayer()
     {
-        // CombatEvents.Instance.CurrentPlayerSelected(currentPlayer);
+        
         foreach(Character player in players)
         {
             if(player.NameCharacter != players[playerIndexSelection].NameCharacter)
@@ -124,6 +124,8 @@ public class CombatController : MonoBehaviour
     private void UpdateArrow()
     {
         selectArrow.transform.position = enemies[enemyIndexSelection].GetComponent<CharacterAnimationController>().SelectPosistion.position;
+        // CombatEvents.Instance.CurrentPlayerSelected(currentPlayer);
+        CombatEvents.Instance.CurrentEnemySelected(enemies[enemyIndexSelection]);
     }
 
     public void DetermineTurnOrder()
