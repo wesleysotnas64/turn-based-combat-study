@@ -8,6 +8,7 @@ public class PlayerInfoCanvasController : MonoBehaviour
     [SerializeField] private TMP_Text textAttack;
     [SerializeField] private TMP_Text textShield;
     [SerializeField] private TMP_Text textAgility;
+    [SerializeField] private TMP_Text textIntelligence;
 
     void Start()
     {
@@ -21,6 +22,7 @@ public class PlayerInfoCanvasController : MonoBehaviour
         textAttack.text = $"Attack {currentPlayer.CurrentAttack}";
         textShield.text = $"Shield {currentPlayer.CurrentShield}";
         textAgility.text = $"Agility {currentPlayer.CurrentAgility}";
+        textIntelligence.text = $"Intelligence {currentPlayer.CurrentIntelligence}";
     }
     
 }
