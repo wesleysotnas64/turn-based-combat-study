@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 432500732}
   - component: {fileID: 432500736}
   m_Layer: 0
-  m_Name: Goblin_1
+  m_Name: COBOLd_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -852,18 +852,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterType: 2
-  nameCharacter: 
+  nameCharacter: COBOLd
   baseHealth: 9
   baseAttack: 2
   baseShield: 0
   baseAgility: 0
   baseIntelligence: 0
   maxHealth: 9
-  currentHealth: 9
-  currentShield: 0
-  currentAttack: 2
-  currentAgility: 0
-  currentIntelligence: 0
+  currentHealth: 10
+  currentShield: 1
+  currentAttack: 3
+  currentAgility: 2
+  currentIntelligence: 2
 --- !u!4 &432500735
 Transform:
   m_ObjectHideFlags: 0
@@ -1714,7 +1714,7 @@ GameObject:
   - component: {fileID: 1067467377}
   - component: {fileID: 1067467381}
   m_Layer: 0
-  m_Name: Goblin_2
+  m_Name: DragoNET_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1803,18 +1803,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterType: 2
-  nameCharacter: 
-  baseHealth: 9
+  nameCharacter: DragoNET
+  baseHealth: 8
   baseAttack: 2
   baseShield: 0
   baseAgility: 0
   baseIntelligence: 0
   maxHealth: 9
-  currentHealth: 9
-  currentShield: 0
-  currentAttack: 2
-  currentAgility: 0
-  currentIntelligence: 0
+  currentHealth: 12
+  currentShield: 1
+  currentAttack: 1
+  currentAgility: 5
+  currentIntelligence: 5
 --- !u!4 &1067467380
 Transform:
   m_ObjectHideFlags: 0
@@ -2568,7 +2568,7 @@ GameObject:
   - component: {fileID: 1477404107}
   - component: {fileID: 1477404108}
   m_Layer: 0
-  m_Name: Goblin_0
+  m_Name: GOblin_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2599,18 +2599,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterType: 2
-  nameCharacter: 
+  nameCharacter: GOblin
   baseHealth: 9
   baseAttack: 2
   baseShield: 0
   baseAgility: 0
   baseIntelligence: 0
   maxHealth: 9
-  currentHealth: 9
+  currentHealth: 8
   currentShield: 0
   currentAttack: 2
   currentAgility: 0
-  currentIntelligence: 0
+  currentIntelligence: 1
 --- !u!4 &1477404106
 Transform:
   m_ObjectHideFlags: 0
