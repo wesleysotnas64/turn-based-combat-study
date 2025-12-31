@@ -345,7 +345,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f125627c2e448747b0858aa9901ef80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerExploration
-  walkTime: 0.25
+  distWalk: 0.16
+  walkTime: 0.2
   currentWalkTime: 0
   canWalk: 0
   lastPosition: {x: 0, y: 0}

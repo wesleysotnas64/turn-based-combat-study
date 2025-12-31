@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerExploration : MonoBehaviour
 {
+    [SerializeField] private float distWalk;
     [SerializeField] private float walkTime;
     [SerializeField] private float currentWalkTime;
     [SerializeField] private bool canWalk;
@@ -34,7 +35,7 @@ public class PlayerExploration : MonoBehaviour
         canWalk = false;
         currentWalkTime = 0.0f;
         lastPosition = transform.position;
-        transform.position += (Vector3)dir;
+        transform.position += (Vector3)dir*distWalk;
     }
 
     private void UpdateWalkTime()
